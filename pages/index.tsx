@@ -7,6 +7,7 @@ import * as React from "react";
 import SimpleDialogDemo from "@/components/SimpleDialogDemo";
 import DataGridDemo from "@/components/DataGridDemo";
 import DateTimeRangeDemo from "@/components/DateTimeRangeDemo";
+import GestureDemo from "@/components/GestureDemo";
 
 export default function ButtonUsage() {
   return (
@@ -14,6 +15,7 @@ export default function ButtonUsage() {
       <SimpleDialogDemo />;
       <DataGridDemo />;
       <DateTimeRangeDemo />;
+      <GestureDemo />;
     </>
   );
 }
