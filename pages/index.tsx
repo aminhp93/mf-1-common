@@ -8,6 +8,8 @@ import SimpleDialogDemo from "@/components/SimpleDialogDemo";
 import DataGridDemo from "@/components/DataGridDemo";
 import DateTimeRangeDemo from "@/components/DateTimeRangeDemo";
 import GestureDemo from "@/components/GestureDemo";
+import EchartsDemo from "@/components/EchartsDemo";
+import LodashDemo from "@/components/LodashDemo";
 
 export default function ButtonUsage() {
   return (
@@ -16,6 +18,8 @@ export default function ButtonUsage() {
       <DataGridDemo />;
       <DateTimeRangeDemo />;
       <GestureDemo />;
+      <EchartsDemo />;
+      <LodashDemo />;
     </>
   );
 }
