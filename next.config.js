@@ -12,7 +12,7 @@ const nextConfig = {
           remotes: {},
           filename: "static/chunks/remoteEntry.js",
           exposes: {
-            "./title": "./pages/index.tsx",
+            "./index": "./pages/index.tsx",
           },
           shared: {},
           extraOptions: {},
